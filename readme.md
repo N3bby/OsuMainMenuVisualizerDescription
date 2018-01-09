@@ -34,7 +34,7 @@ I'm also slowly lerping the scale to 0. The transparency of the bar is also chan
 
 You can see that I still have issues with some bars being more active than others.  
 The official osu! client kind of mitigates this problem by rotating the sample ranges around (+ there are also multiple bars stacked onto each other?)  
-Here's an example (follow my cursor to see what I mean)
+Here's an example (follow my cursor to see what I mean)  
 <img src="https://github.com/Razacx/OsuMainMenuVisualizerDescription/blob/master/img/rotationgif.gif" width="400">
 
 ## Logo
