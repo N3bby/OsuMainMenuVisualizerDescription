@@ -47,7 +47,7 @@ There are better solutions to this though, a quick search on google will give yo
 
 Whenever a beat occurs, I scale the logo to its minimum size and instantiate and 'audio wave' object.  
 The wave object is just an image like this that scales outwards and increases in transparency
-<img src="/img/audio_wave.png" width="500"> fix this
+<img src="https://github.com/Razacx/OsuMainMenuVisualizerDescription/blob/master/img/audio_wave.png" width="300"> fix this
 
 The logo also lerps back to its original size.  
 A system that might be better is making the logo have some sort of 'spring' behaviour, where you can add a force to the spring whenever there is a beat.
