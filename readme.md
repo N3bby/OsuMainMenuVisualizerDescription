@@ -35,6 +35,7 @@ I'm also slowly lerping the scale to 0. The transparency of the bar is also chan
 You can see that I still have issues with some bars being more active than others.  
 The official osu! client kind of mitigates this problem by rotating the sample ranges around (+ there are also multiple bars stacked onto each other?)  
 Here's an example (follow my cursor to see what I mean)
+<img src="https://github.com/Razacx/OsuMainMenuVisualizerDescription/blob/master/img/rotationgif.gif" width="400">
 
 ## Logo
 
@@ -47,7 +48,7 @@ There are better solutions to this though, a quick search on google will give yo
 
 Whenever a beat occurs, I scale the logo to its minimum size and instantiate and 'audio wave' object.  
 The wave object is just an image like this that scales outwards and increases in transparency
-<img src="https://github.com/Razacx/OsuMainMenuVisualizerDescription/blob/master/img/audio_wave.png" width="300"> fix this
+<img src="https://github.com/Razacx/OsuMainMenuVisualizerDescription/blob/master/img/audio_wave.png" width="250">
 
 The logo also lerps back to its original size.  
 A system that might be better is making the logo have some sort of 'spring' behaviour, where you can add a force to the spring whenever there is a beat.
